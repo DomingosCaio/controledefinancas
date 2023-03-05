@@ -2,6 +2,9 @@ import { InputHTMLAttributes } from "react";
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   label: string;
+  // type: string;
+  // cost: number;
+  // value: string;
 }
 
 export const InputText = ({ label, ...props }: Props) => {
