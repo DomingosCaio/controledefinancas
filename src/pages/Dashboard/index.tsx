@@ -7,7 +7,7 @@ import { Main } from "./styles";
 
 export const Dashboard = () => {
   const languages = useSelector(useLanguages);
-  const expanse = [
+  const expense = [
     { id: 1, title: "Netflix", subtitle: "streamming", price: 29.9 },
     { id: 2, title: "Amazon", subtitle: "streamming", price: 9.9 },
     { id: 3, title: "HBO", subtitle: "streamming", price: 19.9 },

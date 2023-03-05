@@ -11,7 +11,7 @@ import {
   Form,
 } from "../../components/Templates";
 
-export const ExpanseForm = () => {
+export const ExpenseForm = () => {
   // const [expense, setExpense] = useState("");
   // const [type, setType] = useState("");
   // const [cost, setCost] = useState("");

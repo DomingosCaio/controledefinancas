@@ -6,12 +6,12 @@ export const Header = () => {
   const router = useRouter();
 
   const navigationToExpenseForm = () => {
-    router.push("/expanseform");
+    router.push("/expenseform");
   };
 
   return (
     <Head>
-      <Span>Expanse Tracker</Span>
+      <Span>Expense Tracker</Span>
       <Nav>
         <Button onClick={navigationToExpenseForm}>Adicionar Nova Conta</Button>
         <Button variant="ghost">Sair</Button>
